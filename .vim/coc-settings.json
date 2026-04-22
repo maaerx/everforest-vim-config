@@ -1,0 +1,7 @@
+{
+  "suggest.enablePreview": true,
+  "suggest.previewIsShown": false,
+  "suggest.labelMaxLength": 25,
+  "suggest.abbrMaxLength": 25,
+  "suggest.maxWidth": 30
+}
