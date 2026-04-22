@@ -39,7 +39,9 @@ nnoremap <C-f> :NERDTreeFind<CR>
 inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
                               \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
 
+let g:coc_disable_space_report = 1
 nnoremap <silent> <C-Space> :Files<CR>
+nnoremap <silent> <Nul> :Files<CR>
 
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
