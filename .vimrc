@@ -2,12 +2,12 @@
 " Basic Settings
 " ===========================
 set nocompatible
-set number                " Show line numbers
-set cursorline            " Highlight current line
-set nowrap                " No line wrapping
+set number                
+set cursorline            
+set nowrap               
 set encoding=utf-8
-set mouse=a               " Enable mouse support
-set clipboard=unnamed     " Use Windows system clipboard
+set mouse=a              
+set clipboard=unnamed    
 set termguicolors
 set nosplitright
 set nosplitbelow
@@ -54,9 +54,9 @@ let g:NERDTreeHighlightCursorline = 1
 " Indentation
 " let NERDTreeMinimalUI = 1
 " =======================
-set tabstop=4             " Tab size
-set shiftwidth=4          " Auto-indent width
-set expandtab             " Use spaces instead of tabs
+set tabstop=4            
+set shiftwidth=4         
+set expandtab           
 set autoindent
 set smartindent
 set pumheight=15
@@ -65,17 +65,17 @@ set updatetime=300
 " =======================
 " Search
 " =======================
-set hlsearch              " Highlight search results
-set incsearch             " Incremental search
-set ignorecase            " Case-insensitive search
-set smartcase             " Unless uppercase letter typed
+set hlsearch             
+set incsearch            
+set ignorecase           
+set smartcase            
 
 " =======================
 " UI Improvements
 " =======================
-syntax on                 " Enable syntax highlighting
-set showcmd               " Show commands as you type
-set wildmenu              " Better command-line completion
+syntax on               
+set showcmd            
+set wildmenu             
 
 "========================
 "Everforest theme + Airline Costomization
